@@ -34,11 +34,11 @@ namespace Vidly.Controllers
 
         public ActionResult Details(int id)
         {
-            var customer = _context.customers.SingleOrDefault(c => c.Id == id);
+            var Customer = _context.customers.SingleOrDefault(c => c.Id == id);
+            var customer = _context.customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
 
             if (customer == null)
                 return HttpNotFound();
-
             return View(customer);
         }
     }

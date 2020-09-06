@@ -195,6 +195,18 @@
     <Compile Include="Migrations\202009061728037_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>202009061728037_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009061907454_MembershipNameAdded.cs" />
+    <Compile Include="Migrations\202009061907454_MembershipNameAdded.Designer.cs">
+      <DependentUpon>202009061907454_MembershipNameAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009061910110_UpdateMembershipType.cs" />
+    <Compile Include="Migrations\202009061910110_UpdateMembershipType.Designer.cs">
+      <DependentUpon>202009061910110_UpdateMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009061938483_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\202009061938483_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>202009061938483_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\customer.cs" />
@@ -302,6 +314,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009061728037_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202009061728037_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009061907454_MembershipNameAdded.resx">
+      <DependentUpon>202009061907454_MembershipNameAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009061910110_UpdateMembershipType.resx">
+      <DependentUpon>202009061910110_UpdateMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009061938483_AddBirthDateToCustomer.resx">
+      <DependentUpon>202009061938483_AddBirthDateToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
