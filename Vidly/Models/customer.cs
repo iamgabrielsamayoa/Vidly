@@ -10,6 +10,7 @@ namespace Vidly.Models
         public int Id { get; set; }
 
         public String  Name { get; set; }
+        public bool IsSuscribedToNewsLetter { get; set; }
 
     }
 }
